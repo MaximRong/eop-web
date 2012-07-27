@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alipay>
+    <is_success range="T,F" constraint="1"/>
+    <request constraint="*" mappedOut="true">
+        <param length="V200" constraint="*" />
+    </request>
+    <response constraint="1" mappedOut="true">
+        <csv_result constraint="1" mappedOut="true">
+            <count type="int" constraint="1"/>
+            <csv_data cdata="true" constraint="1"/>
+        </csv_result>
+    </response>
+    <sign constraint="?"/>
+    <sign_type constraint="?"/>
+    <error constraint="?"/>
+</alipay>

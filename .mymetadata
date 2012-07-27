@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="eop-web"
+  id="myeclipse.1322618461146"
+  context-root="/eop-web"
+  j2ee-spec="6.0"
+  archive="eop-web.war">
+  <attributes>
+    <attribute name="webrootdir" value="webapp" />
+  </attributes>
+</project-module>
+
